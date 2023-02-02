@@ -1,0 +1,164 @@
+body {
+    background-color: white;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #006400;
+    color: #a52a2a;
+    background-image: url(grass.jpg);
+    line-height: 400%;
+    background-position: right;
+    background-repeat: no-repeat;
+    text-indent: 1em;
+}
+
+#wrapper {
+    width: 80%;
+    background-color: lightgreen;
+    border: 1px solid #333333;
+    background-image: linear-gradient(to bottom, #006400, #a52a);
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+nav {
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+    text-align: center;
+    background-color: #006400;
+}
+
+nav a {
+    text-decoration: none;
+    height: 48px;
+    display: block;
+    margin-top: 10px;
+    transition: background-color 2s linear;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a:link {
+    color: #a52a;
+}
+
+nav a:visited {
+    color: #7cfc00;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: black;
+}
+
+main {
+    margin-left: 190px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    display: block;
+    overflow: auto;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url(lawn.jpg);
+    margin-left: 190px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#lawnhero {
+    height: 300px;
+    background-image: url(weeds.jpg);
+    margin-left: 190px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#right-column {
+    float: right;
+    width: 33%;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#container-column {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    flex-direction: column;
+}
+
+footer{
+    clear:both;
+    text-align: center;
+}
+
+table {
+    border: 2px solid #7cfc00;
+    padding: 0.5em;
+}
+
+td, th {
+    border: 2px solid #006400;
+    padding: 0.5em;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #a52a;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
